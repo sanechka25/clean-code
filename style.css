@@ -23,9 +23,9 @@ img {
 }
 
 @media (max-width:768px) {
-  
+
   .more-info { 
-      text-align: center;
+    text-align: center;
   }
 
 }
@@ -47,7 +47,7 @@ img {
 }
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
@@ -69,7 +69,7 @@ button {
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
-}
+} 
 
 button:hover {
   color: #3a3a3a;
@@ -164,21 +164,26 @@ img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks 
+label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+ul
+li
+input[type=text] {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+.edit-mode 
+input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+.edit-mode 
+label {
   display: none;
 }
